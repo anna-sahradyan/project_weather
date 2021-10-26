@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  Tahoma, sans-serif;
+    
+}
+
+.main{
+    background-color:rgba(0, 115, 135, 0.301);   
+     max-width: 400px;
+    height: 500px;
+    position: absolute;
+    left:0;
+    right: 0;
+    margin: 0 auto;
+    top:50%;
+    transform: translate(0,-50%);
+    box-shadow: 10px 10px 30px #017b8b,
+    inset 15px 15px 20px #005763;
+    border-radius: 5px;
+    color:white;
+   
+}
+.metcast{   
+    height: 50px;
+    width: 500px;
+    position: absolute; 
+    font-size: 20px;
+    font-weight: 600px;
+    top: 20px;
+ 
+ }
+.city{
+width: 380px;
+height: 50px;
+background-color: white;
+margin-left: 10px;
+font-size: 20px;
+cursor: pointer;
+
+}
+
+.display {   
+    width: 400px;
+    height: 350px;
+    position: absolute; 
+    top: 20%;
+    left: 15%;
+}
+.display li{
+    padding: 5px;
+    list-style-type: none;
+    font-size: 25px;
+
+}
+.weather{
+   max-height: 100vh; 
+   overflow: hidden;
+   position: relative;
+   background: url(video.mp4/coverr-skiing-trick-1563382795858.jpg)center no-repeat;
+   background-size: cover ;
+  
+}
+.video{
+    position: relative;
+    padding-bottom: 56.25%;
+}
+.video-media{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+ }
