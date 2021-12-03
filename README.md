@@ -6,6 +6,8 @@ Open [https://anna-sahradyan.github.io/project_weather/](https://anna-sahradyan.
 ![Screenshot 2021-12-03 031850](https://user-images.githubusercontent.com/71427017/144594078-028fb9ad-2801-41dd-bdbd-7135ca483f29.png)
 
 
+`C помощью fetch запроса и API KEY  получаю текущую погоду`
+
 
 
 
