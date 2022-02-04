@@ -32,7 +32,7 @@ window.addEventListener('load', function () {
                     key = couantryId["usa"];
                 }
 
-                const api = ` https://api.openweathermap.org/data/2.5/weather?id=${key}&appid=682f8b5b6486dcbf64e9d43bcb2a6ea7`;
+                const api = ` https://api.openweathermap.org/data/2.5/weather?id=${key}&appid=${API_KEY}`;
                 fetch(api)
                     .then(function (resp) { return resp.json() })
                     .then(function (data) {
